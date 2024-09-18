@@ -10,7 +10,7 @@ body{
 }
 
 @media screen and (max-width:480px) {
-    .container {
+        .container {
         width: 100%;
         margin-left: 0;
         margin-top: 2%;
@@ -21,31 +21,31 @@ body{
     }
 
     .logo img {
-        width: 40%;
-        height: 40%;
+        width: 80%;
+        height: 80%;
         margin-top: 5px;
         margin-left: 10px;
     }
 
     .logo {
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
     }
 
     .nav {
-        width: 80%;
+        width: 100%;
         margin-left: 0;
         text-align: center;
     }
 
     .nav li {
-        display: inline;
-        padding: 3px 0;
+        display: block;
+        padding: 5px 0;
     }
 
     .ticket {
-        margin-right: 5px;
-        padding: 0px 10px 0px 0px;
+        margin-right: 10px;
+        padding: 0px 20px 0px 0px;
     }
 
     .ticket a {
@@ -54,7 +54,7 @@ body{
 
     div .main {
         height: auto; 
-        padding: 10px; 
+        padding: 20px; 
     }
 
 
