@@ -21,31 +21,31 @@ body{
     }
 
     .logo img {
-        width: 80%;
-        height: 80%;
+        width: 40%;
+        height: 40%;
         margin-top: 5px;
         margin-left: 10px;
     }
 
     .logo {
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
     }
 
     .nav {
-        width: 100%;
+        width: 80%;
         margin-left: 0;
         text-align: center;
     }
 
     .nav li {
-        display: block;
-        padding: 5px 0;
+        display: inline;
+        padding: 3px 0;
     }
 
     .ticket {
-        margin-right: 10px;
-        padding: 0px 20px 0px 0px;
+        margin-right: 5px;
+        padding: 0px 10px 0px 0px;
     }
 
     .ticket a {
@@ -54,9 +54,11 @@ body{
 
     div .main {
         height: auto; 
-        padding: 20px; 
+        padding: 10px; 
     }
 
+
+    
     section {
         height: auto; 
         padding: 10px;
