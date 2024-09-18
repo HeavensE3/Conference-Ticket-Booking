@@ -149,18 +149,270 @@ body{
 }
 
 
-@media (min-width: 770px) {
+@media screen and (min-width:480px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+
+    header {
+        height: 600px;
+    }
+
+    .logo img {
+        width: 80%;
+        height: 80%;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .nav {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav li {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .ticket {
+        margin-right: 10px;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .ticket a {
+        font-size: 14px;
+    }
+
+    div .main {
+        height: auto; 
+        padding: 20px; 
+    }
+
+    section {
+        height: auto; 
+        padding: 10px;
+    }
+
+    .theme {
+        font-size: 300%; 
+        margin-bottom: 5%;
+    }
+
+    .theme~p {
+        font-size: 120%;
+        margin-bottom: 2%;
+    }
+
+    .mainTicket {
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 80%;
+        padding: 10px;
+        font-size: large; 
+    }
+
+    .countDown {
+        width: 100%;
+        padding: 5%;
+        float: none; 
+    }
+
+    .countDown img {
+        width: 100%;
+        height: auto; 
+    }
+
+    #DDay {
+        font-size: large;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        float: none; 
+        text-align: center;
+    }
+
+    .about {
+        width: 100%;
+        padding: 5%;
+        float: none; 
+    }
+
+    .about h1, .about h2 {
+        font-size: 150%; 
+    }
+
+    .about p {
+        font-size: 120%;
+        word-spacing: normal;
+        line-height: 1.5em; 
+    }
+
+    .about p a {
+        font-size: 80%;
+    }
+
+    #about, #speakers {
+        background-size: cover;
+        padding: 20px;
+    }
+
+    .shedule h1 {
+        font-size: 300%; 
+    }
+
+    .shedule table {
+        width: 90%; 
+        margin-left: 5%;
+    }
+
+    .viewShedule {
+        margin-left: 35%;
+        width: 30%;
+    }
+
+    figure {
+        width: 100%; 
+        height: auto; 
+    }
+
+    #speakers figcaption {
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (min-width: 770px) {
+    .container {
+        width: 90%; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 2%;
+    }
+
+    header {
+        height: 700px; 
+    }
+
+    .logo img {
+        width: 90px; 
+        height: auto; 
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .nav {
+        width: 85%; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left; 
+    }
+
+    .nav li {
+        display: inline-block; 
+        padding: 8px 15px;
+    }
+
+    .ticket {
+        margin-right: 15px;
+        padding: 5px 25px;
+    }
+
+    .ticket a {
+        font-size: 16px; 
+    }
+
+    div .main {
+        height: auto; 
+        padding: 30px; 
+    }
+
+    section {
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .theme {
+        font-size: 350%; 
+        margin-bottom: 3%;
+    }
+
+    .theme~p {
+        font-size: 140%; 
+        margin-bottom: 3%;
+    }
+
+    .mainTicket {
+        margin-left: 15%;
+        margin-top: 3%;
+        width: 70%; 
+        padding: 15px;
+        font-size: x-large; 
+    }
+
+    .countDown {
+        width: 90%; 
+        padding: 4%;
+        float: none; 
+    }
+
+    .countDown img {
+        width: 90%; 
+        height: auto; 
+    }
+
+    #DDay {
+        font-size: x-large; 
+        margin-top: 3%;
+        margin-bottom: 3%;
+        float: none; 
+        text-align: center;
+    }
+
+    .about {
+        width: 90%; 
+        padding: 4%;
+        float: none; 
+    }
+
+    .about h1, .about h2 {
+        font-size: 180%; 
+    }
+
+    .about p {
+        font-size: 140%; 
+        word-spacing: normal;
+        line-height: 1.6em; 
+    }
+
+    .about p a {
+        font-size: 90%; 
+    }
+
     #about, #speakers {
         background-size: cover;
         padding: 30px;
     }
 
     .shedule h1 {
-        font-size: 350%; /* Adjust font size for medium screens */
+        font-size: 350%; 
     }
 
     .shedule table {
-        width: 85%; /* Adjust table width for medium screens */
+        width: 85%;
         margin-left: 7.5%;
     }
 
@@ -170,8 +422,8 @@ body{
     }
 
     figure {
-        width: 45%; /* Adjust figure width for medium screens */
-        height: auto; /* Maintain aspect ratio */
+        width: 45%; 
+        height: auto;
     }
 
     #speakers figcaption {
@@ -180,30 +432,141 @@ body{
     }
 
     .speakersScoll {
-        height: 600px; /* Adjust scrollable area height */
+        height: 600px;
     }
 
     .speakers h1 {
-        font-size: 350%; /* Adjust font size for medium screens */
+        font-size: 350%;
     }
 
     .speakers p {
-        font-size: 180%; /* Adjust paragraph font size */
+        font-size: 180%;
     }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 80%; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 2%;
+    }
+
+    header {
+        height: 800px;
+    }
+
+    .logo img {
+        width: 100px; 
+        height: auto; 
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    .nav {
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left; 
+    }
+
+    .nav li {
+        display: inline-block;
+        padding: 10px 20px;
+    }
+
+    .ticket {
+        margin-right: 20px;
+        padding: 5px 30px;
+    }
+
+    .ticket a {
+        font-size: 18px; 
+    }
+
+    div .main {
+        height: auto; 
+        padding: 40px; 
+    }
+
+    section {
+        height: auto; 
+        padding: 30px; 
+    }
+
+    .theme {
+        font-size: 400%; 
+        margin-bottom: 2%;
+    }
+
+    .theme~p {
+        font-size: 160%; 
+        margin-bottom: 2%;
+    }
+
+    .mainTicket {
+        margin-left: 20%;
+        margin-top: 2%;
+        width: 60%; 
+        padding: 20px;
+        font-size: xx-large; 
+    }
+
+    .countDown {
+        width: 80%; 
+        padding: 3%;
+        float: none; 
+    }
+
+    .countDown img {
+        width: 80%; 
+        height: auto; 
+    }
+
+    #DDay {
+        font-size: xx-large; 
+        margin-top: 2%;
+        margin-bottom: 2%;
+        float: none; 
+        text-align: center;
+    }
+
+    .about {
+        width: 80%; 
+        padding: 3%;
+        float: none; 
+    }
+
+    .about h1, .about h2 {
+        font-size: 200%; 
+    }
+
+    .about p {
+        font-size: 160%; 
+        word-spacing: normal;
+        line-height: 1.8em; 
+    }
+
+    .about p a {
+        font-size: 100%; 
+    }
+
     #about, #speakers {
         background-size: cover;
         padding: 40px;
     }
 
     .shedule h1 {
-        font-size: 400%; /* Larger font size for larger screens */
+        font-size: 400%; 
     }
 
     .shedule table {
-        width: 80%; /* Adjust table width for larger screens */
+        width: 80%; 
         margin-left: 10%;
     }
 
@@ -213,8 +576,8 @@ body{
     }
 
     figure {
-        width: 40%; /* Adjust figure width for larger screens */
-        height: auto; /* Maintain aspect ratio */
+        width: 40%; 
+        height: auto; 
     }
 
     #speakers figcaption {
@@ -223,23 +586,29 @@ body{
     }
 
     .speakersScoll {
-        height: 700px; /* Adjust scrollable area height */
+        height: 700px; 
     }
 
     .speakers h1 {
-        font-size: 400%; /* Larger font size for larger screens */
+        font-size: 400%; 
     }
 
     .speakers p {
-        font-size: 200%; /* Adjust paragraph font size */
+        font-size: 200%; 
     }
 
-    /* Additional adjustments for larger screens */
     .content-wrapper {
-        max-width: 1200px; /* Limit the width of content for readability */
-        margin: 0 auto; /* Center the content */
+        max-width: 1200px; 
+        margin: 0 auto; 
     }
 }
+
+
+
+
+
+
+
 
 .container{
     width: 90%;
